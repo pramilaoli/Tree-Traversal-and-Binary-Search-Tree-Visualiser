@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BST Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls">
+        <input type="number" id="node-value" placeholder="Enter node value">
+        <button id="insert-btn">Insert</button>
+        <button id="delete-btn">Delete</button>
+        <button id="preorder">Preorder</button>
+        <button id="inorder">Inorder</button>
+        <button id="postorder">Postorder</button>
+        <button id="clear-btn">Clear Tree</button>
+    </div>
+    <div id="tree-container">
+        <canvas id="tree-canvas" width="800" height="600"></canvas>
+        <div id="nodes-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
